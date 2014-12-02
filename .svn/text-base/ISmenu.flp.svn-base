@@ -1,0 +1,11 @@
+﻿<flash_project name="ISmenu" version="1">
+    <project_file path=".:MenuElementView2.as" filetype="as" />
+    <project_file path=".:MenuElementView1.as" filetype="as" />
+    <project_file path=".:MenuElementView0.as" filetype="as" />
+    <project_file path=".:MenuCompositeView2.as" filetype="as" />
+    <project_file path=".:MenuCompositeView1.as" filetype="as" />
+    <project_file path=".:MenuCompositeView0.as" filetype="as" />
+    <project_file path=".:BaseMenuElement.as" filetype="as" />
+    <project_file path=".:interfaces/IComponentView.as" filetype="as" />
+    <project_file path=".:interfaces/ICompositeView.as" filetype="as" />
+</flash_project>

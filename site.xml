@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<menu template="base">
+	<main name="news" id="61" template="news">
+		<item date="2008-05-21" id="78" template="item">
+			<title>this is news item1</title>
+			<image />
+			<desc>
+				Content comes in here, whereas it sould not be too long, otherwise it would break off the area (probably)...
+			</desc>				
+		</item>
+		<item date="2008-05-15" id="77" template="item">
+			<title>another title should be used, the system should cut off longer titles</title>
+			<image />
+			<desc>
+				Second content comes in here, whereas it sould not be too long.
+			</desc>				
+		</item>
+		<item date="2008-05-12" id="76" template="item">
+			<title>just a sample title here</title>
+			<image />
+			<desc>
+				Third content comes in here. I could not think of not being able to code this shit.
+			</desc>
+		</item>
+	</main>
+	<main name="studio" id="62" template="menu">
+		<type name="Print" template="menu">
+			<project name="Joker Test 1" client="Joker Inc" id="1" description="test" date="2008-04-22" template="gallery">
+				<document id="2" description="a df asdfasfseeee" file="images/008.jpg" thumb="images/t_008.jpg"documentType="image" template="item" />
+			</project>
+		</type>
+		<type name="Web" template="menu">
+			<project name="tiptop" client="Grey Goose" id="4" description="dfasdf" date="2008-04-16" template="gallery">
+				<document id="2" description="a df asdfasfseeee" file="images/001.jpg" thumb="images/t_001.jpg" documentType="image" template="item" />
+				<document id="3" description="asfba asfa yrjrjrjsj" file="images/002.jpg" thumb="images/t_002.jpg" documentType="image" template="item" />
+				<document id="4" description="hmd sfhsdf asdbzh sdgh" file="images/003.jpg" thumb="images/t_003.jpg" documentType="image" template="item" />
+			</project>
+			<project name="televizyon" client="Sanyo" id="2" description="etst" date="2008-04-08" template="item" />
+			<project name="radyo" client="Sanyo" id="9" description="etst" date="2008-04-08" template="item" />
+		</type>
+		<type name="CMS" template="menu">
+			<project name="Nursing Challange" client="Reinolla" id="19" description="test" date="2008-04-22" template="gallery">
+				<document id="5" description="bmxmx dfhkd asfdha" file="images/004.jpg" thumb="images/t_004.jpg" documentType="image" template="item" />
+				<document id="6" description="lft sd fh vbv" file="images/005.jpg" thumb="images/t_005.jpg" documentType="image" template="item" />
+				<document id="7" description="yulful afga arwgtan" file="images/006.jpg" thumb="images/t_006.jpg" documentType="image" template="item" />
+				<document id="8" description="utlrut sdvb dmhmd" file="images/007.jpg" thumb="images/t_007.jpg" documentType="image" template="item" />
+			</project>
+			<project name="Mxy Shop" client="Mxyplyzyk" id="71" description="test" date="2008-04-22" template="gallery">
+				<document id="9" description="gs ngx ahafhadfha" file="images/envi_17.jpg" documentType="image" template="item" />
+				<document id="10" description="sdgjsdg gjsg asfgz" file="images/envi_18.jpg" documentType="image" template="item" />
+				<document id="11" description="övgö dfx hsdggdgv" file="images/envi_19.jpg" documentType="image" template="item" />
+				<document id="12" description="zxb xnxnx drykdmc" file="images/envi_20.jpg" documentType="image" template="item" />
+				<document id="13" description="fgkf mdhmxx zvbvbxc" file="images/envi_21.jpg" documentType="image" template="item" />
+				<document id="14" description="kfgjk zxvcbm fgöfgh" file="images/envi_22.jpg" documentType="image" template="item" />
+				<document id="15" description="wer gnxgf gjfgjöf" file="images/envi_23.jpg" documentType="image" template="item" />
+				<document id="16" description="zxcvbz kdfsk mbcmc" file="images/envi_24.jpg" documentType="image" template="item" />
+				<document id="17" description="kd nxvnx adfjaj" file="images/envi_25.jpg" documentType="image" template="item" />
+			</project>
+		</type>
+	</main>
+	<main name="what we do" id="63" template="menu">
+		<type name="Print" template="menu">
+			<project name="Joker Test 1" client="Joker Inc" id="1" description="test" date="2008-04-22" template="gallery">
+				<document id="2" description="a df asdfasfseeee" file="images/008.jpg" thumb="images/t_008.jpg"documentType="image" template="item" />
+			</project>
+		</type>
+	</main>
+	<main name="say hi" id="64" template="item" />
+</menu>
